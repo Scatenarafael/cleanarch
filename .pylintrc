@@ -9,6 +9,10 @@ disable =
       C0321, # Multiple-statements
       W0221, # Arguments-differ
       R0801, # Duplicate-code
+      C0115, # missing-class-docstring
+      C0304, # missing-final-newline,
+      C0301, # Line too long (93/79) (line-too-long)
+      R0903  # Too few public methods (1/2) (too-few-public-methods)
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
@@ -355,7 +359,7 @@ indent-after-paren=4
 indent-string='    '
 
 # Maximum number of characters on a single line.
-max-line-length=100
+max-line-length=79
 
 # Maximum number of lines in a module.
 max-module-lines=1000

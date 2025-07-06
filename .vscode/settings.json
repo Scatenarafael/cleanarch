@@ -1,6 +1,10 @@
 {
-    "[python]": {
-        "editor.formatOnSave": true
-    },
-    "pylint.enabled": true
+    "pylint.enabled": true,
+
+    "files.exclude": {
+        "**/*.pyc": {"when": "$(basename).py"},
+        "**/__pycache__": true,
+        "**/.ruff_cache": true,
+        "**/*.pytest_cache": true
+    }
 }
