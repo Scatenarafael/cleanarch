@@ -4,7 +4,7 @@ from src.infra.db.settings.base import Base
 
 
 class Users(Base):
-    __tablename__= "users"
+    __tablename__ = "users"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     first_name = Column(String, nullable=False)

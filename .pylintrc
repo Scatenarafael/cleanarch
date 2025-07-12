@@ -12,7 +12,8 @@ disable =
       C0115, # missing-class-docstring
       C0304, # missing-final-newline,
       C0301, # Line too long (93/79) (line-too-long)
-      R0903  # Too few public methods (1/2) (too-few-public-methods)
+      R0903, # Too few public methods (1/2) (too-few-public-methods)
+      R1710  # Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists

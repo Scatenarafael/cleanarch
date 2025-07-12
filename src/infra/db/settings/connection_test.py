@@ -24,5 +24,3 @@ def test_create_database_engine():
     # )
 
     # conn.commit()
-
-    
